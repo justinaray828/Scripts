@@ -7,6 +7,7 @@ public class SplashScreen : MonoBehaviour {
 
 	public float splashTime = 15f;
 	public float fadeTime = 1000f;
+	public AudioClip splashJingle;
 
 	public Image image;
 	private float timeCounter = 0;

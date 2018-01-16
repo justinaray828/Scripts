@@ -38,4 +38,8 @@ public class CameraController : MonoBehaviour {
 		if (!player)
 			Debug.Log ("Camera Control could not find Player");
 	}
+
+	void onTriggerEnter(Collider col){
+		Debug.Log (col);
+	}
 }
